@@ -1,0 +1,40 @@
+@media screen and (width<=300px) {
+    .calculator form input{
+        width: 25px;
+        height: 25px;
+        font-size: 10px;
+        transition: all 0.3s;
+    }
+
+    form .display input{
+        width: 170px;
+        text-align: center;
+        font-size: 25px;
+        box-shadow: none;
+        transition: all 0.3s;
+    }
+    
+    
+}
+@media screen and (300px<width<=720px) {
+    .calculator form input{
+        width: 40px;
+        height: 40px;
+        font-size: 15px;
+        transition: all 0.3s;
+    }
+
+    form .display input{
+        width: 235px;
+        text-align: center;
+        font-size: 25px;
+        box-shadow: none;
+        transition: all 0.3s;
+    }
+}
+@media screen and (720px<width) {
+    .calculator form input{
+    transition: all 0.3s;
+    }
+    
+} 
